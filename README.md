@@ -29,7 +29,7 @@ AI for General MIDI (gear configured for standard MIDI CCs messages)
 AI for VSL Vienna Synchron Piano sampled instrument
 
 ### Kasm Bell Ringer
-AI for Native Intruments Kontakt with Toll tower bells (change ringing)
+AI for Native Instruments Kontakt with Toll tower bells (change ringing)
 
 ### Kasm Pipes
 AI for Garritan's Classic Pipe Organ
