@@ -22,6 +22,9 @@ AI for Xfer Records' software synth
 ### Kasm Diva
 AI for u-he Diva software synth
 
+### Kasm General MIDI (external MIDI gear)
+AI for General MIDI (gear configured for standard MIDI CCs messages)
+
 ### Kasm VSL Vienna Synchron Piano
 AI for VSL Vienna Synchron Piano sampled instrument
 
