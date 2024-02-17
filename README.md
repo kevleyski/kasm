@@ -11,17 +11,42 @@ SoundCloud Examples: https://soundcloud.com/kevleyski/sets/kasm
 
 WASM Plugins:
 
-Kasm Pigments5 - AI for Arturia's Pigments5 software synth 
-Kasm Serurm - AI for Xfer Records' software synth
-Kasm Diva - AI for u-he Diva software synth
-Kasm Piano - AI for the Piano, VSL Vienna Synchron Pianos, Garritan CFX Piano and maybe others
-Kasm Pipes - AI for Garritan's Pipe Organ
-Kasm Wavestation - AI for KORG Gagets3 Milpitas (Wavestation) software synth
-Kasm Eric Whitacre Choir - AI for Spitfire Audio's Eric Whitacre's Choir
-Kasm Fink Guitar - AI for Spitfire Audio's Fink Guitar
-Kasm Kontakt Toll - AI for Native Intruments Kontakt with Toll tower bells (change ringing)
-Kasm Sylenth1 - AI for Lennar Digital's Sylenth software synth
-Kasm MSoundFactory - AI for Melda Production MSoundFactory (LE or full version)
-Kasm Vital - AI for Vital software synth   
-Kasm Surge - AI for Surge XT software synth   
+### Kasm Pigments5
+AI for Arturia's Pigments5 software synth
+
+### Kasm Serurm
+AI for Xfer Records' software synth
+
+### Kasm Diva
+AI for u-he Diva software synth
+
+### Kasm VSL Vienna Synchron Piano
+AI for VSL Vienna Synchron Piano samples
+
+### Kasm Bell Ringer
+AI for Native Intruments Kontakt with Toll tower bells (change ringing)
+
+### Kasm Pipes
+AI for Garritan's Classic Pipe Organ
+
+### Kasm Wavestation
+AI for KORG Gagets3 Milpitas (Wavestation) software synth
+
+### Kasm Eric Whitacre Choir
+AI for Spitfire Audio's Eric Whitacre's Choir
+
+### Kasm Fink Guitar
+AI for Spitfire Audio's Fink Guitar
+
+### Kasm Sylenth1
+AI for Lennar Digital's Sylenth software synth
+
+### Kasm MSoundFactory
+AI for Melda Production MSoundFactory (LE or full version)
+
+### Kasm Vital
+AI for Vital software synth   
+
+### Kasm Surge XT
+AI for Surge XT software synth   
 
