@@ -73,3 +73,8 @@ AI for the Arturia's Fairlight software synth (CMI V)
 ### Kasm Moog Mini V
 AI for the Arturia's Mini Moog software synth (Mini V)
 
+### Kasm Kasm Wurlizer EP
+AI for Arturia's Wurli V software synth
+
+### Kasm Kasm Rhodes Mark II EP
+AI for Arturia' Rhodes 73 Stage software synth
