@@ -18,8 +18,8 @@ SoundCloud Examples: https://soundcloud.com/kevleyski/sets/kasm
 ### Kasm Pigments5
 AI for Arturia's Pigments5 software synth
 
-### Kasm Serurm
-AI for Xfer Records' software synth
+### Kasm Serum
+AI for Xfer Records' Serum software synth
 
 ### Kasm Diva
 AI for u-he Diva software synth
