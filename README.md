@@ -11,7 +11,9 @@ Kasm _needs_ your existing gear for it to work, it doesn't generate noise itself
 
 SoundCloud Examples: https://soundcloud.com/kevleyski/sets/kasm
 
-Plugins:
+# Plugins:
+
+## AI Synths and Sampler manipulators
 
 ### Kasm Pigments5
 AI for Arturia's Pigments5 software synth
@@ -78,3 +80,16 @@ AI for Arturia's Wurli V software synth
 
 ### Kasm Kasm Rhodes Mark II EP
 AI for Arturia' Rhodes 73 Stage software synth
+
+
+# AI Effects manipulators (audio bus)
+
+### Kasm BFX PSPaudioware VintageWarmer
+AI for PSP VintageWarmer tube compressor
+
+### Kasm BFX Tape
+AI for Logic Pro Tape
+
+###  Kasm BFX Side Chain Compressor
+AI for Logic Pro VCA Compressor
+
