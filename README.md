@@ -33,6 +33,9 @@ AI for General MIDI (gear configured for standard MIDI CCs messages)
 ### Kasm Moog Minimoog (Model D)
 AI for Moog Minimoog software synth (Model D)
 
+### Kasm Moog Modular
+AI for Moog Modular software synth (System 15)
+
 ### Kasm Moog Animoog Z
 AI for Moog Animoog Z software synth
 
