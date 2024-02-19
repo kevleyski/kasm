@@ -13,6 +13,12 @@ SoundCloud Examples: https://soundcloud.com/kevleyski/sets/kasm
 
 # Plugins:
 
+## AI Ambisonics spatial audio
+
+### Kasm BFX Virtuoso Ambisonics
+AI for spatial audio using APL's Virtuoso 
+
+
 ## AI Synths and Sampler manipulators
 
 ### Kasm Pigments5
@@ -23,6 +29,9 @@ AI for Xfer Records' Serum software synth
 
 ### Kasm Diva
 AI for u-he Diva software synth
+
+### Kasm miRack
+AI for mifki miRack software synth
 
 ### Kasm Sylenth1
 AI for Lennar Digital's Sylenth software synth
@@ -35,6 +44,9 @@ AI for Moog Minimoog software synth (Model D)
 
 ### Kasm Moog Modular
 AI for Moog Modular software synth (System 15)
+
+### Kasm VCV Rack2 (running MIDI VCV Rack instance)
+AI for VCV Rack 2 (free version)
 
 ### Kasm Moog Animoog Z
 AI for Moog Animoog Z software synth
