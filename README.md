@@ -36,6 +36,9 @@ AI for mifki miRack software synth
 ### Kasm Sylenth1
 AI for Lennar Digital's Sylenth software synth
 
+### Kasm Omnisphere 2
+AI for Spectrasonics Omnisphere 2.8
+
 ### Kasm General MIDI (external MIDI gear)
 AI for General MIDI (gear configured for standard MIDI CCs messages)
 
