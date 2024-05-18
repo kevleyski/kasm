@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="kasm_VST3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AUDIO_PLUGIN_EXAMPLE" TARGET_NAME="AudioPluginExample_VST3" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/kevsjuce/AudioPluginHost.app/Contents/MacOS/AudioPluginHost">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
