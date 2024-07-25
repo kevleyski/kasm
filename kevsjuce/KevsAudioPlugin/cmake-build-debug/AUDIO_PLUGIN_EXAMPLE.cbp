@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AUDIO_PLUGIN_EXAMPLE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_Standalone\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_AU\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_VST3\;CMake Files\cmake-build-debug\JUCE\;CMake Files\cmake-build-debug\JUCE\tools\;CMake Files\JUCE\;CMake Files\JUCE\extras\;CMake Files\JUCE\extras\Build\;CMake Files\JUCE\extras\Build\CMake\;CMake Files\JUCE\extras\Build\juceaide\;CMake Files\JUCE\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/libAudio Plugin Example_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/libAudio Plugin Example_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_All">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_All"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_Standalone">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example.app/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_Standalone"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_Standalone/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example.app/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_Standalone/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_AU">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/AU/Audio Plugin Example.component/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/AU"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_AU"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_AU/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/AU/Audio Plugin Example.component/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/AU"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_AU/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_VST3">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/VST3/Audio Plugin Example.vst3/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_VST3"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioPluginExample_VST3/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/Debug/VST3/Audio Plugin Example.vst3/Contents/MacOS/Audio Plugin Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Audio Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Audio_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Audio_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.AudioPluginExample"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJucePlugin_Enable_ARA=0"/>
+					<Add option="-DJucePlugin_ARAFactoryID=&quot;com.yourcompany.AudioPluginExample.arafactory.0.0.1&quot;"/>
+					<Add option="-DJucePlugin_ARADocumentArchiveID=&quot;com.yourcompany.AudioPluginExample.aradocumentarchive.1&quot;"/>
+					<Add option="-DJucePlugin_ARACompatibleArchiveIDs=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ARAContentTypes=0"/>
+					<Add option="-DJucePlugin_ARATransformationFlags=0"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_LV2=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 AudioPluginExample_VST3/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="juce_vst3_helper">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/juce_vst3_helper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Cocoa.framework"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 juce_vst3_helper"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="juce_vst3_helper/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/juce_vst3_helper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Cocoa.framework"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 juce_vst3_helper/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib">
+			<Option target="AudioPluginExample_Standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_basics/juce_audio_basics.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_basics/juce_audio_basics.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_devices/juce_audio_devices.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_devices/juce_audio_devices.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_formats/juce_audio_formats.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_formats/juce_audio_formats.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm">
+			<Option target="juce_vst3_helper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm">
+			<Option target="AudioPluginExample_Standalone"/>
+			<Option target="AudioPluginExample_AU"/>
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/juce_audio_processors.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/juce_audio_processors.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_utils/juce_audio_utils.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_audio_utils/juce_audio_utils.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_core/juce_core.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_core/juce_core.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_data_structures/juce_data_structures.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_data_structures/juce_data_structures.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_events/juce_events.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_events/juce_events.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_graphics/juce_graphics.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_graphics/juce_graphics.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_gui_basics/juce_gui_basics.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_gui_basics/juce_gui_basics.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_gui_extra/juce_gui_extra.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/juce_gui_extra/juce_gui_extra.mm">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/PluginEditor.cpp">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/PluginEditor.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/PluginProcessor.cpp">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/PluginProcessor.h">
+			<Option target="AudioPluginExample"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_AU/PkgInfo">
+			<Option target="AudioPluginExample_AU"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_AU/PkgInfo.rule">
+			<Option target="AudioPluginExample_AU"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/PkgInfo">
+			<Option target="AudioPluginExample_Standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/PkgInfo.rule">
+			<Option target="AudioPluginExample_Standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/PkgInfo">
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/PkgInfo.rule">
+			<Option target="AudioPluginExample_VST3"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_Standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_AU/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_AU\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_VST3\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\JUCE\tools\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

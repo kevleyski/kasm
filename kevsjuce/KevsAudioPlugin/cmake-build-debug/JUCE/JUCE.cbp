@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JUCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_Standalone\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_AU\;CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_VST3\;CMake Files\cmake-build-debug\JUCE\;CMake Files\cmake-build-debug\JUCE\tools\;CMake Files\JUCE\;CMake Files\JUCE\extras\;CMake Files\JUCE\extras\Build\;CMake Files\JUCE\extras\Build\CMake\;CMake Files\JUCE\extras\Build\juceaide\;CMake Files\JUCE\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_Standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_AU/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_AU\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\AudioPluginExample_artefacts\JuceLibraryCode\AudioPluginExample_VST3\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/cmake-build-debug/JUCE/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\JUCE\tools\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/kasm/kevsjuce/KevsAudioPlugin/JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
