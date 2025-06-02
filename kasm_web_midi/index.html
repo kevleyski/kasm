@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASM Web MIDI Chord Processor</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #1a1a1a;
+            color: #00ff41;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px #00ff41;
+        }
+        
+        .midi-status {
+            background: #222;
+            border: 1px solid #00ff41;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .chord-control {
+            background: #222;
+            border: 1px solid #00ff41;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .chord-control h3 {
+            margin-top: 0;
+            color: #00ff41;
+            text-shadow: 0 0 5px #00ff41;
+        }
+        
+        .dial-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+        }
+        
+        .dial {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #333;
+            border: 3px solid #00ff41;
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        
+        .dial-pointer {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            width: 2px;
+            height: 30px;
+            background: #00ff41;
+            transform-origin: bottom center;
+            transform: translateX(-50%) rotate(0deg);
+            transition: transform 0.1s;
+            box-shadow: 0 0 5px #00ff41;
+        }
+        
+        .dial-label {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .dial-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #00ff41;
+        }
+        
+        .note-offset-input {
+            background: #333;
+            border: 1px solid #00ff41;
+            color: #00ff41;
+            padding: 5px;
+            text-align: center;
+            width: 60px;
+            margin-bottom: 10px;
+        }
+        
+        .midi-activity {
+            background: #222;
+            border: 1px solid #00ff41;
+            border-radius: 5px;
+            padding: 15px;
+            height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        .note-in { color: #ffff00; }
+        .note-out { color: #00ffff; }
+        .error { color: #ff4444; }
+        
+        button {
+            background: #222;
+            border: 1px solid #00ff41;
+            color: #00ff41;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 3px;
+        }
+        
+        button:hover {
+            background: #00ff41;
+            color: #1a1a1a;
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KASM Web MIDI Chord Processor</h1>
+        
+        <div class="midi-status">
+            <h3>MIDI Status</h3>
+            <div id="midi-status">Initializing...</div>
+            <button id="enable-midi">Enable MIDI</button>
+            <div>
+                Input: <select id="midi-input-select"><option>No inputs available</option></select>
+                Output: <select id="midi-output-select"><option>No outputs available</option></select>
+            </div>
+        </div>
+        
+        <div class="controls-grid" id="controls-grid">
+            <!-- Chord controls will be populated by JavaScript -->
+        </div>
+        
+        <div class="midi-activity">
+            <h3>MIDI Activity</h3>
+            <div id="activity-log"></div>
+        </div>
+    </div>
+    
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

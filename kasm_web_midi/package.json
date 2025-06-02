@@ -1,0 +1,14 @@
+{
+  "name": "kasm-web-midi",
+  "version": "0.1.0",
+  "description": "Web MIDI chord processor using Rust WebAssembly",
+  "type": "module",
+  "scripts": {
+    "build": "wasm-pack build --target web --out-dir pkg",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "wasm-pack": "^0.12.1"
+  }
+}

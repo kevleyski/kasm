@@ -1,0 +1,14 @@
+{
+  "name": "kasm_web_midi",
+  "version": "0.1.0",
+  "files": [
+    "kasm_web_midi_bg.wasm",
+    "kasm_web_midi.js",
+    "kasm_web_midi.d.ts"
+  ],
+  "module": "kasm_web_midi.js",
+  "types": "kasm_web_midi.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
